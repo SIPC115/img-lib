@@ -1,0 +1,37 @@
+{
+  "name": "img-lib",
+  "version": "1.0.1",
+  "description": "图片优化插件",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SIPC115/img-lib.git"
+  },
+  "keywords": [
+    "js",
+    "lazyload",
+    "图片优化",
+    "惰性加载"
+  ],
+  "author": "caelumtian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SIPC115/img-lib/issues"
+  },
+  "homepage": "https://github.com/SIPC115/img-lib#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-0": "^6.5.0",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-jshint": "^1.11.2",
+    "gulp-load-plugins": "^0.10.0",
+    "mocha": "^2.5.3"
+  }
+}
