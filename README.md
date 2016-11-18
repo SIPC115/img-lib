@@ -5,9 +5,21 @@ img-lib
 图片优化插件: 包括图片惰性加载，缓存等功能，图片大小检测，webp格式适配    
 主要面向移动端，PC端不支持IE8及以下。    
 
-## 使用   
-### 下载源代码：   
+## 使用 
+### 安装：
+你可以通过git直接下载安装  
 > git clone https://github.com/SIPC115/img-lib   
+
+### 利用 115私有npm仓库
+你也可以利用`115私有npm`进行安装  
+```  
+//如果没有nrm建议利用nrm来管理npm源
+npm install nrm -g  
+nrm add sipc115 http://59.67.152.41:4873  
+nrm use sipc115
+//安装img-lib插件
+npm install img-lib --save
+```
 
 项目中引用 `lib/img.js`, **注意：src中为ES6的开发代码，不建议引入**      
 
